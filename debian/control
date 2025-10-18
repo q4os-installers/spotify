@@ -1,0 +1,17 @@
+Source: spotify-extq
+Section: none
+Priority: optional
+Maintainer: Q4OS Team <devteam@q4os.org>
+Build-Depends: debhelper (>= 9~), q4os-devpack-base
+Standards-Version: 3.8.4
+
+Package: spotify-extq
+Architecture: all
+Pre-Depends:
+Depends: spotify-client
+Recommends:
+Conflicts:
+Provides:
+Replaces:
+Breaks:
+Description: Spotify metapackage

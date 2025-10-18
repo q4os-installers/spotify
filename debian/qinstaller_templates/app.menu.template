@@ -1,0 +1,22 @@
+ <!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+  "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<Menu>
+
+<Menu>
+	<Name>Spotify</Name>
+	<DefaultLayout show_empty="true">
+		<Merge type="menus"/>
+		<Merge type="files"/>
+	</DefaultLayout>
+	<Layout>
+		<Filename>spotify.desktop</Filename>
+		<Filename>spotify-extq_uninstall.desktop</Filename>
+	</Layout>
+	<Include>
+		<Filename>spotify.desktop</Filename>
+		<Filename>spotify-extq_uninstall.desktop</Filename>
+	</Include>
+</Menu>
+
+</Menu>

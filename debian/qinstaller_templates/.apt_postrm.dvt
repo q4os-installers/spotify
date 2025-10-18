@@ -1,0 +1,6 @@
+#!/bin/sh -e
+
+if [ "$1" = remove ] ; then
+  echo "Removing /etc/apt/sources.list.d/spotify.list .."
+  rm -f /etc/apt/sources.list.d/spotify.list
+fi
